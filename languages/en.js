@@ -1,5 +1,5 @@
 module.exports = {
-    footer: "Developed by SSRR | Prime Music v1.2",
+    footer: "Powered by Mora and Food | Paimon Music v1.2",
     ping: {
       description: "Check the bot latency",
       response: "Pinging...",
@@ -8,7 +8,7 @@ module.exports = {
         responseTime: "- Bot Response Time : **{latency}ms**",
         websocketPing: "- WebSocket Ping : **{ping}ms**",
         uptime: "- Uptime : **{uptime}**",
-        footer: "Developed by SSRR | Prime Music v1.2"
+        footer: "Powered by Mora and Food | Paimon Music v1.2"
       }
     },
     addsong: {
@@ -100,12 +100,12 @@ module.exports = {
   help: {
     embed: {
         title: "📜 {botName} Help Menu",
-        author: "Help",
+        author: "GSOM",
         description: `
-        **Welcome to {botName}!**
+        **{botName} is here!**
 
-        > Your ultimate music companion on Discord.
-        > Below is detailed information about the bot:
+        > Best singer in Teyvat!
+        > Below is detailed information about Paimon:
                 
         **📂 Commands:** {totalCommands}
         **🌐 Servers:** {totalServers}
@@ -255,7 +255,7 @@ module.exports = {
   support: {
     embed: {
         authorName: "Support Server",
-        description: "➡️ **Join our Discord server for support and updates:**\n- Discord - {supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - {githubLink}\n- Replit - {replitLink}\n- YouTube - {youtubeLink}",
+        description: "➡️ **Follow us on:**\n- GitHub - {githubLink}\n- Replit - {replitLink}\n- YouTube - {youtubeLink}",
         error: "Error",
         errorDescription: "- An error occurred while processing your request."
     }
