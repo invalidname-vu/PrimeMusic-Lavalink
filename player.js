@@ -1,7 +1,7 @@
 const { Riffy } = require("riffy");
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, AttachmentBuilder, PermissionsBitField } = require("discord.js");
 const { queueNames, requesters } = require("./commands/play");
-const { Dynamic } = require("");
+const { Dynamic } = require("musicard");
 const config = require("./config.js");
 const musicIcons = require('./UI/icons/musicicons.js');
 const colors = require('./UI/colors/colors');
